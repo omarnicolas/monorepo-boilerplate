@@ -1,14 +1,25 @@
 {
-    "name": "monorepo-boilerplate",
-    "private": "true",
-    "workspaces": ["packages/*"],
-    "scripts": {
-        "bootstrap": "lerna bootstrap",
-        "test": "lerna run test --since",
-        "new-version": "lerna version --conventional-commits --yes",
-        "diff": "lerna diff"
-    },
-    "devDependencies": {
-        "lerna": "^3.22.1"
-    }
+  "name": "monorepo-boilerplate",
+  "private": "true",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "test": "lerna run test --since",
+    "new-version": "lerna version --conventional-commits --yes",
+    "diff": "lerna diff",
+    "lint": "eslint --fix -c .eslintrc.json --ignore-path .gitignore --cache"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "lerna": "^3.22.1",
+    "prettier": "^2.0.5"
+  }
 }
