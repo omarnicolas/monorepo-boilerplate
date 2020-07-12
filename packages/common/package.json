@@ -1,8 +1,12 @@
 {
   "name": "@monorepo/common",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "license": "MIT",
   "scripts": {
     "test": "echo testing server with version: $npm_package_version"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
 }
