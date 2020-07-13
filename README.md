@@ -1,6 +1,7 @@
 # `Monorepo Boilerplate`
 
 ## What is Monorepo
+
 A monorepo is a software development strategy where code for many projects are stored in the same repository.
 
 - Easy to mantain.
@@ -10,6 +11,7 @@ A monorepo is a software development strategy where code for many projects are s
 - Arguably better versioning (FIXED/INDEPENDENT).
 
 ## Usage
+
 Run this project is very easy, quick and automatic using monorepo approach.
 
 - Install [lerna](https://github.com/lerna/lerna) first: `npm install -g lerna`
@@ -22,8 +24,8 @@ Run this project is very easy, quick and automatic using monorepo approach.
 
 ```
 git clone https://github.com/omarnicolas/monorepo-boilerplate.git
-npm i -g lerna
 cd monorepo-boilerplate
+npm i
 npm run bootstrap
 npm run test
 node packages/server/index.js
