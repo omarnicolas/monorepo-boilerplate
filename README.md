@@ -28,5 +28,5 @@ cd monorepo-boilerplate
 npm i
 npm run bootstrap
 npm run test
-node packages/server/index.js
+node packages/server/src/index.js
 ```
